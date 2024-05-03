@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.top-header {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    padding-top: 20px !important;
+}
+
+.css-ancrnh-MuiButtonBase-root-MuiIconButton-root {
+    outline: none !important;
+}
+
+.css-hyum1k-MuiToolbar-root {
+    justify-content: space-between !important;
+}
+
+td,
+.css-1ndpvdd-MuiTableCell-root {
+    border: none !important;
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    background-color: #ffffff21 !important
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.css-ancrnh-MuiButtonBase-root-MuiIconButton-root,
+.css-17rug2r-MuiButtonBase-root-MuiIconButton-root {
+    border: 1px solid white !important;
+    padding: 8px !important;
+    margin: auto 10px !important;
+
+}
+
+.css-1ndpvdd-MuiTableCell-root,
+.css-177gid-MuiTableCell-root,
+.css-1ex1afd-MuiTableCell-root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: white !important;
+
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    color: white !important;
+    font-family: inherit !important;
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+    color: white !important;
+}
